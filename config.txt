@@ -1,0 +1,27 @@
+
+
+TIPE=3
+    ## tipe 1 : cuma resize
+    ## tipe 2 : resize dan remark 
+    ## tipe 3 : save 2 foto, foto 1 resize, foto 2 resize dan remark
+
+BANYAK_PROSES=10
+SPLIT_FOLDER=true
+SPLIT_SIZE=400
+
+##config resize
+PRESENTASI_RESIZE=25
+KUALITAS_FOTO=70
+
+##config remark
+PESAN=foto belum diedit
+PESAN_2= zzzzzzzzz
+WARNA_PESAN=#FF0080
+JENIS_REMARK=teks
+    ## JENIS_REMARK gambar atau teks
+TEKS_REMARK=Test Testing
+WARNA_TEXT_REMARK=#0900FF
+METEDATA=true
+    ## METADATA true : akan mencetak nama file, jam foto diambil pada foto
+    ## METADATA false : tidak akan mencetak metadata apapun pada foto
+    
